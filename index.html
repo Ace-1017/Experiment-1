@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .ad-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: calc(33% - 20px);
+            transition: transform 0.3s;
+        }
+        .ad-card:hover {
+            transform: scale(1.05);
+        }
+        .ad-image {
+            width: 100%;
+            height: 200px;
+            background: #ddd url('https://via.placeholder.com/300') center center / cover no-repeat;
+        }
+        .ad-content {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            text-decoration: none; /* Removes the underline */
+            color: inherit;       /* Inherits the color from the parent element */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>BSBA FM-2A</h1>
+        <p class="subtitle">AD PAGE</p>
+    </header>
+
+    <div class="container">
+        <a href="https://www.burgerking.com" target="_blank" class="ad-card">
+            <div class="ad-image" style="background: url('https://www.upmenu.com/wp-content/uploads/2023/10/food-advertisement-examples2.jpeg') center center / cover no-repeat;"></div>
+            <div class="ad-content">
+                <h2>Burger King</h2> <!-- Modify the name here -->
+                <p>Savor the iconic flame-grilled taste! Discover exclusive deals on your favorite burgers.</p>
+            </div>
+        </a>
+        <a href="https://www.starbucks.com" target="_blank" class="ad-card">
+            <div class="ad-image" style="background: url('https://www.upmenu.com/wp-content/uploads/2023/10/food-advertisement-examples12.jpg') center center / cover no-repeat;"></div>
+            <div class="ad-content">
+                <h2>Starbucks</h2> <!-- Modify the name here -->
+                <p>Fuel your day with a handcrafted coffee. Find your new favorite seasonal drink today!</p>
+            </div>
+        </a>
+        <a href="https://www.dominos.com" target="_blank" class="ad-card">
+            <div class="ad-image" style="background: url('https://www.upmenu.com/wp-content/uploads/2023/10/food-advertisment10.jpg') center center / cover no-repeat;"></div>
+            <div class="ad-content">
+                <h2>Domino's</h2> <!-- Modify the name here -->
+                <p>Pizza perfection at your doorstep! Order now and enjoy fresh flavors with every bite.</p>
+            </div>
+        </a>
+        <!-- New Ad Cards -->
+        <a href="https://www.pizzahut.com" target="_blank" class="ad-card">
+            <div class="ad-image" style="background: url('https://blog.pizzahut.com/wp-content/uploads/2022/10/Pizza_Hut_MELTS-1024x576.jpg') center center / cover no-repeat;"></div> <!-- Modify the image URL here -->
+            <div class="ad-content">
+                <h2>Pizza Hut</h2> <!-- Modify the name here -->
+                <p>Enjoy the comfort of hot, cheesy pizza right from your oven. Try our famous pan crust and new flavor combos!</p>
+            </div>
+        </a>
+        <a href="https://www.mcdonalds.com" target="_blank" class="ad-card">
+            <div class="ad-image" style="background: url('https://s7d1.scene7.com/is/image/mcdonalds/CBM_1PUB_Image:1-column-desktop?resmode=sharp2') center center / cover no-repeat;"></div> <!-- Modify the image URL here -->
+            <div class="ad-content">
+                <h2>McDonald's</h2> <!-- Modify the name here -->
+                <p>From classic favorites to new flavors, we've got something for everyone. Check out our latest deals!</p>
+            </div>
+        </a>
+        <a href="https://www.subway.com" target="_blank" class="ad-card">
+            <div class="ad-image" style="background: url('https://www.subway.com/en-us/-/media/northamerica/usa/menu/2024/mp_slim_699_fl_v2_dsk.png?la=en-US&h=395&w=580&mw=0') center center / cover no-repeat;"></div> <!-- Modify the image URL here -->
+            <div class="ad-content">
+                <h2>Subway</h2> <!-- Modify the name here -->
+                <p>Freshness made your way! Customize your favorite sub with a variety of toppings and sauces.</p>
+            </div>
+        </a>
+        <!-- Add more ad cards as needed -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 HCCC Business Administration Major in Financial Management</p>
+    </footer>
+
+</body>
+</html>
